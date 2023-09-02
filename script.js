@@ -40,7 +40,7 @@ function checkPassword() {
 replaceButton.addEventListener('click', () => {
     // Replace the GIF with a new image source
 
-    alert('Make sure to wish first!!! before pressing OK to continue');
+    alert('Make sure to wish first!!! and unmute before pressing OK to continue');
 
     gif.src = 'images/rmb-off.gif'; // Replace 'another-image.jpg' with your desired image path
     // Hide the "Replace GIF" button
