@@ -27,6 +27,9 @@ function checkPassword() {
     const enteredPassword = passwordInput.value;
     // Replace 'your-password' with your desired password
     if (enteredPassword === 'sirmbangpinakamasarapmaglutongsinigangnababoy') {
+
+        alert('Increase the volume before pressing OK to continue');
+
         modal.style.display = 'none'; // Hide the modal
         sidebar.style.display = 'block'; // Show the sidebar
         container.style.display = 'block'; // Show the container
@@ -40,7 +43,7 @@ function checkPassword() {
 replaceButton.addEventListener('click', () => {
     // Replace the GIF with a new image source
 
-    alert('Make sure to wish first!!! and unmute before pressing OK to continue');
+    alert('Make sure to wish first!!! before pressing OK to continue');
 
     gif.src = 'images/rmb-off.gif'; // Replace 'another-image.jpg' with your desired image path
     // Hide the "Replace GIF" button
